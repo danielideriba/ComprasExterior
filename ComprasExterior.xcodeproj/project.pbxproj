@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F9A46AE5213C35000009923D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A46AE4213C35000009923D /* AppDelegate.swift */; };
+		F9A46AE7213C35000009923D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A46AE6213C35000009923D /* ViewController.swift */; };
+		F9A46AEA213C35000009923D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9A46AE8213C35000009923D /* Main.storyboard */; };
+		F9A46AED213C35000009923D /* ComprasExterior.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F9A46AEB213C35000009923D /* ComprasExterior.xcdatamodeld */; };
+		F9A46AEF213C350B0009923D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9A46AEE213C350B0009923D /* Assets.xcassets */; };
+		F9A46AF2213C350B0009923D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9A46AF0213C350B0009923D /* LaunchScreen.storyboard */; };
+		F9A46AFD213C350C0009923D /* ComprasExteriorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A46AFC213C350C0009923D /* ComprasExteriorTests.swift */; };
+		F9A46B08213C350C0009923D /* ComprasExteriorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A46B07213C350C0009923D /* ComprasExteriorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F9A46AF9213C350C0009923D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9A46AD9213C34FF0009923D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9A46AE0213C34FF0009923D;
+			remoteInfo = ComprasExterior;
+		};
+		F9A46B04213C350C0009923D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9A46AD9213C34FF0009923D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9A46AE0213C34FF0009923D;
+			remoteInfo = ComprasExterior;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F9A46AE1213C34FF0009923D /* ComprasExterior.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ComprasExterior.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9A46AE4213C35000009923D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F9A46AE6213C35000009923D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F9A46AE9213C35000009923D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F9A46AEC213C35000009923D /* ComprasExterior.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ComprasExterior.xcdatamodel; sourceTree = "<group>"; };
+		F9A46AEE213C350B0009923D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F9A46AF1213C350B0009923D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F9A46AF3213C350B0009923D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9A46AF8213C350C0009923D /* ComprasExteriorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ComprasExteriorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9A46AFC213C350C0009923D /* ComprasExteriorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComprasExteriorTests.swift; sourceTree = "<group>"; };
+		F9A46AFE213C350C0009923D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9A46B03213C350C0009923D /* ComprasExteriorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ComprasExteriorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9A46B07213C350C0009923D /* ComprasExteriorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComprasExteriorUITests.swift; sourceTree = "<group>"; };
+		F9A46B09213C350C0009923D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9A46ADE213C34FF0009923D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9A46AF5213C350C0009923D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9A46B00213C350C0009923D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F9A46AD8213C34FF0009923D = {
+			isa = PBXGroup;
+			children = (
+				F9A46AE3213C34FF0009923D /* ComprasExterior */,
+				F9A46AFB213C350C0009923D /* ComprasExteriorTests */,
+				F9A46B06213C350C0009923D /* ComprasExteriorUITests */,
+				F9A46AE2213C34FF0009923D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F9A46AE2213C34FF0009923D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9A46AE1213C34FF0009923D /* ComprasExterior.app */,
+				F9A46AF8213C350C0009923D /* ComprasExteriorTests.xctest */,
+				F9A46B03213C350C0009923D /* ComprasExteriorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9A46AE3213C34FF0009923D /* ComprasExterior */ = {
+			isa = PBXGroup;
+			children = (
+				F9A46AE4213C35000009923D /* AppDelegate.swift */,
+				F9A46AE6213C35000009923D /* ViewController.swift */,
+				F9A46AE8213C35000009923D /* Main.storyboard */,
+				F9A46AEE213C350B0009923D /* Assets.xcassets */,
+				F9A46AF0213C350B0009923D /* LaunchScreen.storyboard */,
+				F9A46AF3213C350B0009923D /* Info.plist */,
+				F9A46AEB213C35000009923D /* ComprasExterior.xcdatamodeld */,
+			);
+			path = ComprasExterior;
+			sourceTree = "<group>";
+		};
+		F9A46AFB213C350C0009923D /* ComprasExteriorTests */ = {
+			isa = PBXGroup;
+			children = (
+				F9A46AFC213C350C0009923D /* ComprasExteriorTests.swift */,
+				F9A46AFE213C350C0009923D /* Info.plist */,
+			);
+			path = ComprasExteriorTests;
+			sourceTree = "<group>";
+		};
+		F9A46B06213C350C0009923D /* ComprasExteriorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F9A46B07213C350C0009923D /* ComprasExteriorUITests.swift */,
+				F9A46B09213C350C0009923D /* Info.plist */,
+			);
+			path = ComprasExteriorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9A46AE0213C34FF0009923D /* ComprasExterior */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9A46B0C213C350C0009923D /* Build configuration list for PBXNativeTarget "ComprasExterior" */;
+			buildPhases = (
+				F9A46ADD213C34FF0009923D /* Sources */,
+				F9A46ADE213C34FF0009923D /* Frameworks */,
+				F9A46ADF213C34FF0009923D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ComprasExterior;
+			productName = ComprasExterior;
+			productReference = F9A46AE1213C34FF0009923D /* ComprasExterior.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F9A46AF7213C350C0009923D /* ComprasExteriorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9A46B0F213C350C0009923D /* Build configuration list for PBXNativeTarget "ComprasExteriorTests" */;
+			buildPhases = (
+				F9A46AF4213C350C0009923D /* Sources */,
+				F9A46AF5213C350C0009923D /* Frameworks */,
+				F9A46AF6213C350C0009923D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9A46AFA213C350C0009923D /* PBXTargetDependency */,
+			);
+			name = ComprasExteriorTests;
+			productName = ComprasExteriorTests;
+			productReference = F9A46AF8213C350C0009923D /* ComprasExteriorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F9A46B02213C350C0009923D /* ComprasExteriorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9A46B12213C350C0009923D /* Build configuration list for PBXNativeTarget "ComprasExteriorUITests" */;
+			buildPhases = (
+				F9A46AFF213C350C0009923D /* Sources */,
+				F9A46B00213C350C0009923D /* Frameworks */,
+				F9A46B01213C350C0009923D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9A46B05213C350C0009923D /* PBXTargetDependency */,
+			);
+			name = ComprasExteriorUITests;
+			productName = ComprasExteriorUITests;
+			productReference = F9A46B03213C350C0009923D /* ComprasExteriorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9A46AD9213C34FF0009923D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Daniel Ideriba";
+				TargetAttributes = {
+					F9A46AE0213C34FF0009923D = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					F9A46AF7213C350C0009923D = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = F9A46AE0213C34FF0009923D;
+					};
+					F9A46B02213C350C0009923D = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = F9A46AE0213C34FF0009923D;
+					};
+				};
+			};
+			buildConfigurationList = F9A46ADC213C34FF0009923D /* Build configuration list for PBXProject "ComprasExterior" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F9A46AD8213C34FF0009923D;
+			productRefGroup = F9A46AE2213C34FF0009923D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9A46AE0213C34FF0009923D /* ComprasExterior */,
+				F9A46AF7213C350C0009923D /* ComprasExteriorTests */,
+				F9A46B02213C350C0009923D /* ComprasExteriorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9A46ADF213C34FF0009923D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9A46AF2213C350B0009923D /* LaunchScreen.storyboard in Resources */,
+				F9A46AEF213C350B0009923D /* Assets.xcassets in Resources */,
+				F9A46AEA213C35000009923D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9A46AF6213C350C0009923D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9A46B01213C350C0009923D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9A46ADD213C34FF0009923D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9A46AE7213C35000009923D /* ViewController.swift in Sources */,
+				F9A46AED213C35000009923D /* ComprasExterior.xcdatamodeld in Sources */,
+				F9A46AE5213C35000009923D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9A46AF4213C350C0009923D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9A46AFD213C350C0009923D /* ComprasExteriorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9A46AFF213C350C0009923D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9A46B08213C350C0009923D /* ComprasExteriorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F9A46AFA213C350C0009923D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9A46AE0213C34FF0009923D /* ComprasExterior */;
+			targetProxy = F9A46AF9213C350C0009923D /* PBXContainerItemProxy */;
+		};
+		F9A46B05213C350C0009923D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9A46AE0213C34FF0009923D /* ComprasExterior */;
+			targetProxy = F9A46B04213C350C0009923D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F9A46AE8213C35000009923D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9A46AE9213C35000009923D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F9A46AF0213C350B0009923D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9A46AF1213C350B0009923D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F9A46B0A213C350C0009923D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F9A46B0B213C350C0009923D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F9A46B0D213C350C0009923D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ComprasExterior/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.comprasExterior.ComprasExterior;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F9A46B0E213C350C0009923D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ComprasExterior/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.comprasExterior.ComprasExterior;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F9A46B10213C350C0009923D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ComprasExteriorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.comprasExterior.ComprasExteriorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ComprasExterior.app/ComprasExterior";
+			};
+			name = Debug;
+		};
+		F9A46B11213C350C0009923D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ComprasExteriorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.comprasExterior.ComprasExteriorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ComprasExterior.app/ComprasExterior";
+			};
+			name = Release;
+		};
+		F9A46B13213C350C0009923D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ComprasExteriorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.comprasExterior.ComprasExteriorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ComprasExterior;
+			};
+			name = Debug;
+		};
+		F9A46B14213C350C0009923D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ComprasExteriorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.comprasExterior.ComprasExteriorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ComprasExterior;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9A46ADC213C34FF0009923D /* Build configuration list for PBXProject "ComprasExterior" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9A46B0A213C350C0009923D /* Debug */,
+				F9A46B0B213C350C0009923D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9A46B0C213C350C0009923D /* Build configuration list for PBXNativeTarget "ComprasExterior" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9A46B0D213C350C0009923D /* Debug */,
+				F9A46B0E213C350C0009923D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9A46B0F213C350C0009923D /* Build configuration list for PBXNativeTarget "ComprasExteriorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9A46B10213C350C0009923D /* Debug */,
+				F9A46B11213C350C0009923D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9A46B12213C350C0009923D /* Build configuration list for PBXNativeTarget "ComprasExteriorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9A46B13213C350C0009923D /* Debug */,
+				F9A46B14213C350C0009923D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F9A46AEB213C35000009923D /* ComprasExterior.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F9A46AEC213C35000009923D /* ComprasExterior.xcdatamodel */,
+			);
+			currentVersion = F9A46AEC213C35000009923D /* ComprasExterior.xcdatamodel */;
+			path = ComprasExterior.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F9A46AD9213C34FF0009923D /* Project object */;
+}
