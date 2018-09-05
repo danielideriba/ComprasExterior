@@ -15,6 +15,7 @@
 		F9A46AF2213C350B0009923D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9A46AF0213C350B0009923D /* LaunchScreen.storyboard */; };
 		F9A46AFD213C350C0009923D /* ComprasExteriorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A46AFC213C350C0009923D /* ComprasExteriorTests.swift */; };
 		F9A46B08213C350C0009923D /* ComprasExteriorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A46B07213C350C0009923D /* ComprasExteriorUITests.swift */; };
+		F9A46B16213C900C0009923D /* ShoppingListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A46B15213C900C0009923D /* ShoppingListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		F9A46B03213C350C0009923D /* ComprasExteriorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ComprasExteriorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9A46B07213C350C0009923D /* ComprasExteriorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComprasExteriorUITests.swift; sourceTree = "<group>"; };
 		F9A46B09213C350C0009923D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9A46B15213C900C0009923D /* ShoppingListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				F9A46AF0213C350B0009923D /* LaunchScreen.storyboard */,
 				F9A46AF3213C350B0009923D /* Info.plist */,
 				F9A46AEB213C35000009923D /* ComprasExterior.xcdatamodeld */,
+				F9A46B15213C900C0009923D /* ShoppingListViewController.swift */,
 			);
 			path = ComprasExterior;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9A46B16213C900C0009923D /* ShoppingListViewController.swift in Sources */,
 				F9A46AE7213C35000009923D /* ViewController.swift in Sources */,
 				F9A46AED213C35000009923D /* ComprasExterior.xcdatamodeld in Sources */,
 				F9A46AE5213C35000009923D /* AppDelegate.swift in Sources */,
@@ -443,7 +447,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.comprasExterior.ComprasExterior;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -460,7 +464,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.comprasExterior.ComprasExterior;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
